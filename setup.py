@@ -17,6 +17,7 @@ def find_eigen(min_ver=(3, 3, 0)):
 		os.path.expanduser('~/.local/include/eigen3'),
 		'C:/Program Files/eigen3',
 		'C:/Program Files (x86)/eigen3',
+		'/mnt/fast/nobackup/users/ww00620/miniconda3/envs/mg123/include/eigen3'
 	]
 	WORLD_VER_STR = "#define EIGEN_WORLD_VERSION"
 	MAJOR_VER_STR = "#define EIGEN_MAJOR_VERSION"
